@@ -1,5 +1,4 @@
 #playbook is a list of plays
-
 - name : PLAY1
   host: localhost
   become: yes
