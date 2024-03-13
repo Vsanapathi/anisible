@@ -1,16 +1,16 @@
 #playbook is a list of plays
 
-- name : Play1
+- name : PLAY1
   host: localhost
   become: yes
   tasks:
-  - name:play1 and task1
+  - name: PLAY1 and TASK1
     ansible.builtin.debug :
-      msg: "hello from Play1 and task1"
+      msg: "hello from PLAY1 and TASK1"
 
-- name : Play2
+- name : PLAY2
   host: localhost
   tasks:
-  - name:play2 and task2
+  - name: PLAY2 and TASK2
     ansible.builtin.debug :
-      msg: "hello from Play1 and task1"      
+      msg: "hello from PLAY2 and TASK2"      
